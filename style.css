@@ -14,7 +14,34 @@ main{
 }
 
 .casella{
+  border: 1px solid white;
+  display: none;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+
+.c-49{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+.c-81{
   width: calc(100% / 9);
   height: calc(100% / 9);
-  border: 1px solid white;
+}
+
+.c-100{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.verde{
+  background-color: green;
+  display: flex;
+}
+
+.rosso{
+  background-color: red;
+  display: flex;
 }

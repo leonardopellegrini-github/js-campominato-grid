@@ -16,20 +16,30 @@
         logo
       </div>
       <div class="col-sm d-flex align-items-sm-center flex-end altezza">
-        bottoni
+        <select id="difficolta" name="difficolta">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+
+        <button onclick="inserimento()" id="gioca" type="button">GIOCA</button>
       </div>
     </div>
 
   </header>
 
+  
   <main class="container-fluid d-flex align-items-center justify-content-center">
 
       <div class="d-flex align-content-start flex-wrap tabella">
-        <div class="casella"></div> 
-
+        <div class="casella c-81"></div> 
       </div>
    
   </main>
+
+
+
+
 
   <footer class="container">
     <div class="row">
